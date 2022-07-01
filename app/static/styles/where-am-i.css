@@ -1,30 +1,27 @@
-h3.content-header-title {
-  --primary-color: #d8b5ff;
-  --secondary-color: #1eae98;
+:root {
+  --primary-color: #D8B5FF;
+  --secondary-color: #1EAE98;
+}
+
+h3 {
   font-weight: 800;
   font-size: calc(4vw + 4vh);
   letter-spacing: -0.2rem;
   margin: 50px 0 0px;
-  background: linear-gradient(
-    45deg,
-    var(--primary-color) 32.5%,
-    var(--secondary-color) 50.5%
-  );
+  background: linear-gradient(45deg,
+      var(--primary-color) 32.5%,
+      var(--secondary-color) 50.5%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 1em;
   padding-bottom: 20px;
 }
 
-h4.subheading {
-  --primary-color: #d8b5ff;
-  --secondary-color: #1eae98;
+h4 {
   font-size: calc(2vw + 2vh);
-  background: linear-gradient(
-    45deg,
-    var(--primary-color) 32.5%,
-    var(--secondary-color) 50.5%
-  );
+  background: linear-gradient(45deg,
+      var(--primary-color) 32.5%,
+      var(--secondary-color) 50.5%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;

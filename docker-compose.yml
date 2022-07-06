@@ -1,0 +1,28 @@
+version: "3"
+services:
+  myportfolio:
+    container_name: myportfolio
+    build: .
+    restart: always
+    env_file:
+      - .env
+    environment:
+      - FLASK_ENV=devlopment
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/project-chad-wojak
+    depends_on:
+      - mysql
+
+  mysql:
+    container_name: mysql
+    image: mariadb
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - mydatabase:/var/lib/mysql
+
+volumes:
+  mydatabase:

@@ -3,7 +3,7 @@
   --secondary-color: #1EAE98;
 }
 
-h3 {
+h3.content-header-title {
   font-weight: 800;
   font-size: calc(4vw + 4vh);
   letter-spacing: -0.2rem;
@@ -17,7 +17,8 @@ h3 {
   padding-bottom: 20px;
 }
 
-h4 {
+h4.subheading {
+  font-weight: 800;
   font-size: calc(2vw + 2vh);
   background: linear-gradient(45deg,
       var(--primary-color) 32.5%,

@@ -32,6 +32,14 @@ it #}
         const marker = L.marker([place.coords[0], place.coords[1]]).addTo(map);
         marker.bindPopup(`<b>${place.name}</b><br/>${place.description}`);
     }
+    
+    var circle = L.circle([45.5579564,-73.8703871], {
+      color: 'red',
+      fillColor: '#f03',
+      fillOpacity: 0.5,
+      radius: 50000
+    }).addTo(map);
+  
   });
 </script>
 {% endblock %}

@@ -199,7 +199,7 @@ def where_am_i():
         'places': [{
             'name': 'Montreal',
             'description': 'I am currently living in Quebec, Canada',
-            'coords': [45.5579564,-73.8703871]
+            'coords': [45.5161167,-73.5580907]
         }, {
             'name': 'Vancouver',
             'description': 'I went there for a very short time when I was small',

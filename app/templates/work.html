@@ -13,9 +13,9 @@
     {% for job in jobs %}
         <div class="job-item">
             <script>randomColors()</script>
-            <h1> Job Title: {{job.name}} </h1>
-            <p> Location : {{job.location}}</p>
-            <p> Phone : {{job.contact}}</p>
+            <p> <b>Job Title:</b> {{job.name}} </p>
+            <p> <b>Location :</b> {{job.location}}</p>
+            <p> <b>Phone : </b> {{job.contact}}</p>
             <p id="descriptionJob"> {{job.description}}</p>
         </div>________________________________________________________________________________________________________________________________________
     {% endfor %} 

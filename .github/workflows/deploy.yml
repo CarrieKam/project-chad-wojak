@@ -38,4 +38,3 @@ jobs:
         run: |
           ssh my-vm 'cd ${{ secrets.PROJECT_ROOT }}'
           docker ps
-          END

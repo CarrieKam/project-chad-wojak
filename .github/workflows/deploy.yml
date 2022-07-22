@@ -30,4 +30,4 @@ jobs:
         run: ssh my-vm '~/redeploy-site.sh'
 
       - name: Print container status
-        run: docker compose ps
+        run: docker-compose ps docker-compose.yml

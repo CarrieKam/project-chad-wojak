@@ -18,7 +18,7 @@ jobs:
           chmod 600 ~/.ssh/deploy-key.pem
           cat >> ~/.ssh/config <<END
           Host my-vm
-            HostName 134.122.41.212
+            HostName $SSH_IP
             User root
             IdentityFile ~/.ssh/deploy-key.pem
             StrictHostKeyChecking no

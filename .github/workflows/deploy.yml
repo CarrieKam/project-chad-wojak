@@ -37,5 +37,5 @@ jobs:
       - name: Print Out Container Status
         run: |
           ssh my-vm 'cd ${{ secrets.PROJECT_ROOT }}'
-          docker-compose ps
+          docker ps
           END

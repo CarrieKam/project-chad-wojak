@@ -35,4 +35,7 @@ jobs:
         run: ssh my-vm '~/redeploy-site.sh'
 
       - name: Print Out Container Status
-        run: ssh my-vm 'cd ${{ secrets.PROJECT_ROOT }} && docker-compose ps'
+        run: |
+          ssh my-vm 'cd ${{ secrets.PROJECT_ROOT }}'
+          docker-compose ps
+          END

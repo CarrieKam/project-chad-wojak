@@ -7,7 +7,7 @@ services:
     env_file:
       - .env
     environment:
-      - FLASK_ENV=devlopment
+      - FLASK_ENV=development
     ports:
       - "5000:5000"
     volumes:

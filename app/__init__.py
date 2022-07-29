@@ -172,7 +172,7 @@ def hobbies():
                 'name': 'Gaming',
                 'img': 'https://images.unsplash.com/photo-1537963447914-dbc04b81de27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80',
                 'desc': "I like escape games, like Tiny Room Stories: Town Mystery. Time flies very fast when playing this kind of game while "
-                        "there is nothing to do in the subway. I also like Genshin Impact for the wonderful landscape and game play."
+                        "there is nothing to do in the subway."
             },
             {
                 'name': 'Attending Hackathons',
